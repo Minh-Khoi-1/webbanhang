@@ -1,10 +1,9 @@
 :root {
-    --primary-color: #ee4d2d;
+    --primary-color: #1409cb;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
-
     --header-height: 220px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(var(--header-height) - var(var(--navbar-height))))
@@ -17,7 +16,7 @@
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+   
     box-sizing: border-box;
 }
 
@@ -87,7 +86,7 @@ html {
 
 /* Button style */
 .btn {
-    min-width: 142px;
+    min-width: 124px;
     height: 34px;
     text-decoration: none;
     border: none;
@@ -114,7 +113,7 @@ html {
 
 .btn.btn--primary {
     color: var(--white-color);
-    background-color: var(--primary-color);
+    background-color: #2df574;
 }
 
 .btn.btn--disabled {
