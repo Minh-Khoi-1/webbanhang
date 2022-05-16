@@ -19,7 +19,7 @@ html {
    
     box-sizing: border-box;
 }
-
+/* Responsive */
 .grid{
     width: 1200px;
     max-height: 100%;
@@ -29,10 +29,11 @@ html {
 .grid__full-width {
     width: 100%;
 }
-
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 /* Animation */
@@ -92,12 +93,13 @@ html {
     border: none;
     border-radius: 2px;
     font-size: 1.5rem;
-    padding: 0 8px;
+    padding: 0 12px;
     outline: none;
     cursor: pointer;
     color: var(--text-color);
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    align-items: center;
     line-height: 3rem;
 }
 
@@ -121,3 +123,4 @@ html {
     cursor: default;
     background-color: #c3c3c3;
 }
+/* selection */
